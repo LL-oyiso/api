@@ -5,5 +5,5 @@ const PORT = 8080;
 // listen on specific port
 app.listen(
     PORT,
-    () => console.log('its alive on http://localhost:${PORT}')
+    () => console.log(`its alive on http://localhost:${PORT}`)
 )
